@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="xiaomi.css">
+    <script src="/js/jquery-3.7.1.js"></script>
+    <title>小米网站</title>
+</head>
+<body>
+    <div class="top">
+        <div class="w">
+            <div class="l">
+                <ul>
+                    <li><a href="#">小米商城</a></li>
+                    <li><a href="#">MIUI</a></li>
+                    <li><a href="#">lot</a></li>
+                    <li><a href="#">云服务</a></li>
+                    <li><a href="#">天星数码</a></li>
+                </ul>
+            </div>
+            <div class="m">
+                <p><a href="#">购物车(0)</a></p>
+            </div>
+            <div class="n">
+                <ul>
+                    <li><a href="#">消息</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li><a href="#">登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="logo">
+            <img src="images/logo1.png" alt="小米官网" title="xiaomi">
+        </div>
+        <div class="nav1">
+            <ul>
+                <li><a href="#">Xiaomi手机</a></li>
+                <li><a href="#">Redmi手机</a></li>
+                <li><a href="#">电视</a></li>
+                <li><a href="#">笔记本</a></li>
+                <li><a href="#">家电</a></li>
+                <li><a href="#">路由器</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" value="手机">
+            <button></button>
+        </div>
+    </div>
+
+    <div class="box1">
+        <div class="box1-1">
+            <a href="#">手机 电话卡</a>
+            <a href="#">手机 电话卡</a>
+            <a href="#">手机 电话卡</a>
+            <a href="#">手机 电话卡</a>
+            <a href="#">手机 电话卡</a>
+            <a href="#">手机 电话卡</a>
+            <a href="#">手机 电话卡</a>
+            <a href="#">手机 电话卡</a>
+            <a href="#">手机 电话卡</a>
+            <a href="#">手机 电话卡</a>
+        </div>
+        <div class="box1-2">
+            <ul class="nav2">
+                <li><img src="images/xm1.jpg"></li>
+                <li><img src="images/1.jpg"></li>
+                <li><img src="images/2.jpg" ></li>
+                <li><img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c66412360b4581510445386d6133ed4f.png?w=2452&h=920" ></li>
+                <li><img src="images/xm1.jpg"></li>
+            </ul>
+            <a href="#" class="left">&lt;</a>
+            <a href="#" class="right">&gt;</a>
+
+            <ul class="nav">
+                <li class="s1"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="box2-1">
+            <a href="#"><img src="images/xm2.jpg" ></a>
+        </div>
+        <div class="box2-2">
+            <div>
+                <a href="#">
+                <img src="images/xm3.png" >
+                <h4 class="title">小米 MIX FOLD</h4>
+                <p class="price">9999元起</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/xm3.png" >
+                    <h4 class="title">小米 MIX FOLD</h4>
+                    <p class="price">9999元起</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/xm3.png" >
+                    <h4 class="title">小米 MIX FOLD</h4>
+                    <p class="price">9999元起</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/xm3.png" >
+                    <h4 class="title">小米 MIX FOLD</h4>
+                    <p class="price">9999元起</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/xm3.png" >
+                    <h4 class="title">小米 MIX FOLD</h4>
+                    <p class="price">9999元起</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/xm3.png" >
+                    <h4 class="title">小米 MIX FOLD</h4>
+                    <p class="price">9999元起</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/xm3.png" >
+                    <h4 class="title">小米 MIX FOLD</h4>
+                    <p class="price">9999元起</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/xm3.png" >
+                    <h4 class="title">小米 MIX FOLD</h4>
+                    <p class="price">9999元起</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">footer</div>
+
+
+    <script>
+        var num=0;
+        var nav2=document.querySelector('.nav2');
+        $(function() {
+            $(".right").click(function() {
+                if (num==4){
+                    nav2.style.left = 0;
+                    num=0;
+                }
+                num++;
+                $(".nav2").animate({
+                    left:-num*992,
+                },50);
+            })    
+        })
+        $(function() {
+            $(".left").click(function(){
+                if (num==0){
+                    nav2.style.left = -992*4;
+                    num=4;
+                }
+                num--;
+                $(".nav2").animate({
+                    left:-num*992,
+                },50);
+            })
+        })
+    </script>
+</body>
+</html>

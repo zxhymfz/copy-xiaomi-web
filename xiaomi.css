@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F5F5F5;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    height: 50px;
+    background-color: #333333;
+}
+.w{
+    width: 1226px;
+    margin: auto;
+}
+.top .w{
+    height: 50px;
+    background-color: #333333;
+}
+.l ul li{
+    float:left;
+}
+
+.l ul li a{
+    display: block;
+    float: left;
+    font-size: 13px;
+    color: #999;
+    padding: 0 2px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.l ul li a:hover{
+    color: #FFF;
+}
+
+.m p a{
+    float: right;
+    height: 50px;
+    width: 150px;
+    background-color: #444;
+    color: #FFF;
+    text-align: center;
+    line-height: 50px;
+}
+
+.m p a:hover{
+    background-color: white;
+    color: goldenrod;
+}
+
+/* .r ul li {
+    background-color: red;
+    display: block;
+    float: right;
+    font-size: 13px;
+    color: #999;
+    padding: 0 2px;
+    height: 50px;
+    line-height: 50px;
+} */
+
+.n ul li a{
+    display: block;
+    float: right;
+    font-size: 13px;
+    color: #999;
+    padding: 0 2px;
+    height: 50px;
+    line-height: 50px;
+}
+.n ul li a:hover{
+    color: #FFF;
+}
+
+.banner{
+    width: 1226px;
+    height: 100px;
+    margin: 10px auto;
+    /* background-color: #999; */
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+}
+
+.nav1{
+    /* background-color: red; */
+    float: left;
+    margin-left: 200px;
+}
+.nav1 ul li{
+    float: left;
+    margin: 0 5px;
+}
+.nav1 ul li a{
+    display: block;
+    float: left;
+    font-size: 16px;
+    color: #000;
+    padding: 0 3px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.search{
+    float: right;
+    width: 271px;
+    height: 52px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+.search input{
+    float: left;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #737373;
+    border-right: 0;
+    padding-left: 20px;
+}
+.search button{
+    float: left;
+    width: 50px;
+    height: 52px;
+    border: 1px solid #737373;
+    background:url(images/btn1.png);
+}
+.search button:hover{
+    background: url(images/btn2.png);
+}
+.box1{
+    width: 1226px;
+    height: 460px;
+    background-color: #999;
+    margin: 10px auto;
+}
+.box1-1{
+    float: left;
+    width: 234px;
+    height: 460px;
+    /* background-color: blue; */
+}
+.box1-1 a{
+    display: block;
+    width: 234px;
+    height: 46px;
+    background-color: #666;
+    font-size: 14px;
+    color: white;
+    padding-left: 30px;
+    text-align: 46px;
+    line-height: 46px;
+}
+.box1-1 a:hover{
+    background-color: #ff7900;
+}
+.box1-2{
+    float: left;
+    width: 992px;
+    height: 460px;
+    position: relative;
+    overflow: hidden;
+    background-color: purple;
+}
+.nav2{
+    width: 5000px;
+    position: absolute;
+}
+.nav2 li{
+    float: left;
+}
+.box1-2 img{
+    width: 992px;
+    height: 460px;
+}
+.left,.right{
+    width: 30px;
+    height: 66px;
+    position: absolute;
+    top: 50%;
+    margin-top: -33px;
+    text-decoration: node;
+    color: #FFF;
+    text-align: center;
+    line-height: 66px;
+    font-size: 36px;
+}
+.left{
+    left: 0;
+}
+.left:hover{
+    background-color: gray;
+}
+.right{
+    right: 0;
+}
+.right:hover{
+    background-color: gray;
+}
+.nav{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: 15px;
+}
+.nav li{
+    float: left;
+    height: 8px;
+    width: 8px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 3px;
+}
+.nav .s1{
+    background-color: #FFF;
+}
+.box2{
+    width: 1226px;
+    height: 614px;
+    background-color: #666;
+    margin: 10px auto;
+}
+.box2-1{
+    float: left;
+    width: 234px;
+    height: 614px;
+    /* background-color: green; */
+}
+.box2-2{
+    float: left;
+    width: 992px;
+    height: 614px;
+    background-color: #f5f5f5;
+}
+.box2-2 div{
+    float: left;
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.box2-2 img{
+    width: 160px;
+    height: 160px;
+    margin: 20px auto;
+}
+.title{
+    font-size: 14px;
+    color: black;
+}
+.desc{
+    font-size: 14px;
+    color: dimgray;
+}
+.price{
+    direction: inherit-block;
+    padding-top: 15px;
+    color: orange;
+}
+.footer{
+    margin-top: 10px;
+    height: 200px;
+    background-color: #999;
+}
+.box0{
+    width: 80px;
+    height: 400px;
+    right: 5px;
+    top: 100px;
+    background-color: #666;
+    position: fixed;
+}
